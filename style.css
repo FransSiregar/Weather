@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url("Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: Comfortaa;
+  font-weight: bold;
+  src: url("Comfortaa-Bold.ttf");
+}
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  background: #111d4a;
+  border: 1px solid #111d4a;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpaperaccess.com/full/478288.jpg");
+  background-size: 100%;
+  /* background-color: #427AA1; */
+}
+
+.container-weather {
+  margin: 125px;
+  width: 640px;
+  height: 400px;
+  background: #92140c;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.kota {
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  height: 78.57px;
+  background: #111d4a;
+  border-radius: 30px 30px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kota > h1 {
+  margin-left: 20px;
+  color: white;
+  font-family: Comfortaa;
+  font-size: 32px;
+}
+
+.tanggal {
+  box-sizing: border-box;
+  height: 50px;
+  background: #92140c;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.tanggal > h1 {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff8f0;
+  margin-left: 20px;
+}
+
+.suhu {
+  display: flex;
+  width: 640px;
+  height: 166.3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.suhu > h1 {
+  margin-left: 80px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 700;
+  align-items: center;
+  font-size: 64px;
+  color: #fff8f0;
+}
+
+.sunset-sunrise {
+  border-top: 2px solid #ffffff;
+  height: 107.14px;
+  border-radius: 0px 0px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sunset-sunrise > button {
+  font-family: Comfortaa;
+  padding: 12px 60px 12px 60px;
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.sunset-sunrise > button:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 1s;
+}
+#container-icon > h3 {
+  font-family: Comfortaa;
+  font-size: normal;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+#container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#container-icon > img {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.sunset-sunrise > h1 {
+  color: white;
+  font-size: normal;
+  font-family: Comfortaa;
+}
+
+.Wea {
+  margin-left: 20px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: -0.015em;
+
+  color: #ffffff;
+}
+
+.ther {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: -0.015em;
+  pointer-events: stroke;
+
+  color: #f2d0a4;
+}
+
+.container:hover .Wea {
+  color: #f2d0a4;
+  transition-duration: 2s;
+}
+.container:hover .ther {
+  color: #ffffff;
+  transition-duration: 2s;
+}
